@@ -1,0 +1,49 @@
+{
+  "order_uid": "",
+  "track_number": "WBILMPETRTRACK",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Petr Petrov",
+    "phone": "+37430000000",
+    "zip": "534636",
+    "city": "Vladivostok",
+    "address": "Ulica Pionerskaya 4",
+    "region": "DFO",
+    "email": "petr@gmail.com"
+  },
+  "payment": {
+    "transaction": "g4esgfdsg56zxbpetr",
+    "request_id": "",
+    "currency": "CNY",
+    "provider": "unionpay",
+    "amount": 2817,
+    "payment_dt": 43263844,
+    "bank": "bank_of_china",
+    "delivery_cost": 2500,
+    "goods_total": 317,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 3673734,
+      "track_number": "WBILMPETRTRACK",
+      "price": 317,
+      "rid": "abdfhgd63764ae0bpetr",
+      "name": "Something strange",
+      "sale": 0,
+      "size": "0",
+      "total_price": 317,
+      "nm_id": 2389212,
+      "brand": "Aliexpress",
+      "status": 201
+    }
+  ],
+  "locale": "cn",
+  "internal_signature": "",
+  "customer_id": "petr",
+  "delivery_service": "tmall",
+  "shardkey": "8",
+  "sm_id": 59,
+  "date_created": "2020-08-21T06:22:19Z",
+  "oof_shard": "3"
+}

@@ -1,0 +1,49 @@
+{
+  "order_uid": "gd6346bfcr7test",
+  "track_number": "WBILMIVANTRACK",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Ivan Ivanov",
+    "phone": "+88000000000",
+    "zip": "157489",
+    "city": "Novosibirsk",
+    "address": "Ulica Lenina 1",
+    "region": "Novosib",
+    "email": "ivan@gmail.com"
+  },
+  "payment": {
+    "transaction": "gd6346bfcr7test",
+    "request_id": "123",
+    "currency": "EUR",
+    "provider": "mirpay",
+    "amount": 334,
+    "payment_dt": 1637907727,
+    "bank": "sber",
+    "delivery_cost": 250,
+    "goods_total": 184,
+    "custom_fee": 5
+  },
+  "items": [
+    {
+      "chrt_id": 84623482,
+      "track_number": "WBILMIVANTRACK",
+      "price": 230,
+      "rid": "ab4219087a764ae0btest",
+      "name": "Coat",
+      "sale": 20,
+      "size": "1",
+      "total_price": 184,
+      "nm_id": 2548963,
+      "brand": "Zolla",
+      "status": 200
+    }
+  ],
+  "locale": "ru",
+  "internal_signature": "g",
+  "customer_id": "ivan",
+  "delivery_service": "cdec",
+  "shardkey": "3",
+  "sm_id": 46,
+  "date_created": "2022-03-26T06:22:19Z",
+  "oof_shard": "2"
+}
