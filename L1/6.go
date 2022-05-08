@@ -31,7 +31,7 @@ func contextTimeout(c context.Context, wg *sync.WaitGroup) {
 	}
 }
 
-func chanel(c chan struct{}, wg *sync.WaitGroup) {
+func cancelByChannel(c chan struct{}, wg *sync.WaitGroup) {
 	defer wg.Done()
 	for {
 		select {
@@ -59,7 +59,7 @@ func main() {
 	go contextTimeout(ctxTimeout, wg)
 	fmt.Println("goroutine start by channel")
 	wg.Add(1)
-	go chanel(ch, wg)
+	go cancelByChannel(ch, wg)
 
 	select {
 	case <-time.After(t):
